@@ -99,7 +99,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 5%; /* links/rechts padding zodat links iets naar binnen komt */
-    height: 100vh;
+    height: 200vh;
 }
 
 /* Linkerkant: foto + tekst */
@@ -164,3 +164,4 @@ main {
         gap: 1rem;
     }
 }
+
