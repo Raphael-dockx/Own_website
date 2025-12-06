@@ -1,0 +1,143 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #e4d4ba;
+    color: #1a1a1a;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.pretty{
+  background-color: #e4d4bf;
+}
+html, body {
+    height: 100%;
+}
+
+.header { 
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding: 30px;
+   z-index: 50;
+}
+
+.profile-section {
+  position: fixed;
+  left: 64px;
+  top: 160px;
+  max-width: 200px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.profile-description {
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+main, .main-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 80px;
+    padding-top: 120px;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  color: rgb(24, 21, 15);
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+.navbar a:hover{
+  color:#cfb503;
+  transform: scale(1.05);
+}
+.active {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.car img {
+    height: 450px;
+    object-fit: cover;
+
+}
+
+.mezelf img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.text{
+    font-size: 3rem;
+    max-width: 30rem;
+    line-height: 1.2;
+    font-family: 'Playfair Display', serif;
+}
+.text a:hover{
+  color: #cfb503;
+  transform: 1.05;
+}
+.aside-text {
+    max-width: 23ch;
+    word-wrap: break-word;
+}
+.form-container {
+    border: 1px solid #e4d4b1;
+    background-color: #e4d4bf;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+    .left-side, .right-side {
+        max-width: 100%;
+        align-items: center;
+    }
+    .right-side {
+        margin-right: 0;
+        gap: 1rem;
+    }
+}
+@media print {
+    body {
+        font-size: 16pt;
+    }
+}

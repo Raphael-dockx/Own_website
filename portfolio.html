@@ -1,141 +1,128 @@
 <!DOCTYPE html>
 <html lang="nl-BE">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>projecten</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
-    </script>
-  <link rel="stylesheet" href="/eigen css/style sheet.css">
-</head>
-<body class="p-3 m-0 border-0">
-    <nav class="navbar bd-light container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="./assets/logo-Photoroom.png" alt="home" width="75" height="75">
-      <a class="navbar-brand" href="index.html"><img src="./assets/previous-page-22.png" alt="home" width="75" height="75">
-    </a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/eigen_css/style.css">
+  <script src="js/script.js" defer></script>
+  </head>
+  <body class="p-3 m-0 border-0">
+    <nav class="navbar navbar-expand-lg navbar-light pretty px-3">
+  <a class="navbar-brand" href="/index.html">
+    <img src="/assets/logo-Photoroom.png" alt="home" height="80">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav d-flex flex-column flex-lg-row gap-lg-4">
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projecten</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="portfolio.html">Portfolio</a></li>
+          <li><a class="dropdown-item" href="webwiz.html">Webwiz</a></li>
+          <li><a class="dropdown-item" href="project1.html">project1</a></li>
+          <li><a class="dropdown-item" href="project2.html">project2</a></li>
+          <li><a class="dropdown-item" href="project3.html">project3</a></li>
+          <li><a class="dropdown-item" href="project4.html">project4</a></li>
+          <li><a class="dropdown-item" href="project5.html">project5</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="/over_mezelf.html">Over mezelf</a></li>
+      <li class="nav-item"><a class="nav-link" href="/contact.html">Contact pagina</a></li>
+    </ul>
+  </div>
     </nav>
-<header class="m-5 row">
-    <h1 class="display-5 text-center blauwgrijs">Projects</h1>
-  </header>
-<div class="container">
-  <div class="row">
-
- <article class="shop-item col-12 col-sm-6 col-md-4 text-center"></article>
-     <article class="shop-item col-12 col-sm-6 col-md-4 text-center">
-            <h2 class="text-uppercase fs-4 fw-bolder p-3">
-              <a class="nav-link" href="projects/project0.html">
-                <p class="fs-4">
-              project 1
-              </p>
-              </a>
-              </h2>
-              <figure>
-               <img src="./assets/1ste opdracht.png" alt="home" width="200" height="200">
-              <a class="nav-link" href="projects/project0.html">
-                <p class="fs-3">
-                  Project 1 in packet tracer
-                </p>
-              </a>
-              </figure>
+    <header class="text-center">
+      <h1 class="display-4">portfolio</h1>
+    </header>
+    <main class="container mt-3 pt-3">
+    <div class="container">
+    <div class="row">
+      <aside class="col-12 col-lg-2 aside-tekst" style="font-size: 18px;">
+        <p>Welkom op mijn projectpagina</p>
+        <p>Hier vind je een overzicht van mijn voltooide projecten, mijn huidige werkzaamheden en toekomstige projecten die in ontwikkeling zijn.</p>
+        </aside>
+    <article class="col-12 col-sm-5 col-md-3 text-center">
+      <h2 class="text-uppercase fs-4 fw-bolder p-3">
+        <a class="nav-link" href="/webwiz.html">
+          <p class="fs-5">webwiz</p>
+          </a>
+        </h2>
+        <figure>
+          <a class="nav-link" href="/webwiz.html"><img src="/assets/webwiz.png" alt="home" width="200" height="200"></a>
+          <figcaption>&copy; Raphaël Dockx</figcaption>
+        </figure>
+        </article>
+        <article class="col-12 col-sm-5 col-md-3 text-center">
+          <h2 class="text-uppercase fs-4 fw-bolder p-3">
+            <a class="nav-link" href="/project1.html">
+              <p class="fs-5">project 1</p>
             </a>
+          </h2>
+          <figure>
+          <a class="nav-link" href="/project1.html"><img src="/assets/placeholder.png" alt="home" width="200" height="200"></a>
+          <figcaption>&copy; google.com</figcaption>  
+        </figure>
           </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4 text-center">
+          <article class="col-12 col-sm-5 col-md-3 text-center">
             <h2 class="text-uppercase fs-4 fw-bolder p-3">
-              <!-- <a class="nav-link" href="projects/project1.html"> -->
-                <p class="fs-4">
-                project 2
-                </p>
+              <a class="nav-link" href="/project2.html">
+                <p class="fs-5">project 2</p>
               </a>
             </h2>
               <figure>
-               <img src="./assets/Work in progress.png" alt="home" width="200" height="200">
-              <!-- <a class="nav-link" href="projects/project1.html"> -->
-                <p class="fs-3">
-                  Project 2
-                </p>
-              </a>
+               <a class="nav-link" href="/project2.html"><img src="/assets/placeholder.png" alt="home" width="200" height="200"></a>
+               <figcaption>&copy; google.com</figcaption>
               </figure>
-            </a>
           </article>
-          <!-- <article class="shop-item col-12 col-sm-6 col-md-4 text-center">
+          <a class="col-lg-2"></a>
+          <article class="col-12 col-sm-5 col-md-3 text-center">
             <h2 class="text-uppercase fs-4 fw-bolder p-3">
-              <a class="nav-link" href="projects/project2.html">
-                <p class="fs-4">
-                  project 3
-                </p>
+              <a class="nav-link" href="/project3.html">
+                <p class="fs-5">project 3</p>
               </a>
             </h2>
               <figure>
-               <img src="./assets/placeholder.png" alt="home" width="200" height="200">
-              <a class="nav-link" href="projects/project2.html">
-                <p class="fs-3">
-                  Project 3
-                </p>
-              </a>
+                <a class="nav-link" href="/project3.html"><img src="/assets/placeholder.png" alt="home" width="200" height="200"></a>
+                <figcaption>&copy; google.com</figcaption>
               </figure>
-            </a>
           </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4 text-center">
+          <article class="col-12 col-sm-5 col-md-3 text-center">
             <h2 class="text-uppercase fs-4 fw-bolder p-3">
-              <a class="nav-link" href="projects/project3.html">
-                <p class="fs-4">
-                  project 4
-                </p>
+              <a class="nav-link" href="/project4.html">
+                <p class="fs-5">project 4</p>
               </a>
             </h2>
               <figure>
-               <img src="./assets/placeholder.png" alt="home" width="200" height="200">
-              <a class="nav-link" href="projects/project3.html">
-                <p class="fs-3">
-                  Project 4
-                </p>
-              </a>
+                <a class="nav-link" href="/project4.html"><img src="/assets/placeholder.png" alt="home" width="200" height="200"></a>
+                <figcaption>&copy; google.com</figcaption>
               </figure>
-            </a>
           </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4 text-center">
+          <article class="col-12 col-sm-5 col-md-3 text-center">
             <h2 class="text-uppercase fs-4 fw-bolder p-3">
-              <a class="nav-link" href="projects/project4.html">
-                <p class="fs-4">
-                  project 5
-                </p>
+              <a class="nav-link" href="/project5.html">
+                <p class="fs-5">project 5</p>
               </a>
             </h2>
               <figure>
-               <img src="../assets/placeholder.png" alt="home" width="200" height="200">
-              <a class="nav-link" href="projects/project4.html">
-                <p class="fs-3">
-                  Project 5
-                </p>
-              </a>
+                <a class="nav-link" href="/project5.html"><img src="/assets/placeholder.png" alt="home" width="200" height="200"></a>
+                <figcaption>&copy; google.com</figcaption>
               </figure>
-            </a>
-          </article>
-          <article class="shop-item col-12 col-sm-6 col-md-4 text-center">
-            <h2 class="text-uppercase fs-4 fw-bolder p-3">
-              <a class="nav-link" href="projects/project5.html">
-                <p class="fs-4">
-                  project 3
-                </p>
-              </a>
-            </h2>
-              <figure>
-               <img src="./assets/placeholder.png" alt="home" width="200" height="200">
-              <a class="nav-link" href="projects/project5.html">
-                <p class="fs-3">
-                  Project 6
-                </p>
-              </a>
-              </figure>
-            </a>
           </article>
         </section>
-        <hr>
-    </div>
       </div>
-  </main> -->
+      </div>
+    </main>
+    <footer class="container-fluid text-center h6 small p-3 mt-2">
+      <p>&copy; Raphaël Dockx
+      <span id="year"></span></p>
+    </footer>
+  </body>
+</html>
